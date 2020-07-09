@@ -22,7 +22,7 @@ import java.net.URL;
 
 
 public class Driver {
-    private static final String GRID_URL = "http://100.26.171.118:4444/wd/hub";
+    private static final String GRID_URL = "http://54.172.92.71/:4444/wd/hub";
     public static final String USERNAME = "vasylfomiuk1";
     public static final String AUTOMATE_KEY = "shPeppvXmzdSTZqAZH3f";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
