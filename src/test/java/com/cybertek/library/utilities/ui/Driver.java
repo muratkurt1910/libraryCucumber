@@ -36,7 +36,7 @@ public class Driver {
     public static synchronized WebDriver getDriver() {
         if (driverPool.get() == null) {
 
-            // check the command line argument browser. if it has value, use that value
+            // check the command li9ne argument browser. if it has value, use that value
             // if no browser value is passed from command line, the user properties file
             // mvn test -Dbrowser=remote-chrome
             // mvn test -Dbrowser=remote-firefox
