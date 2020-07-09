@@ -33,7 +33,7 @@ public class Driver {
     private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
 
 
-    public static synchronized WebDriver getDriver() {
+    public static WebDriver getDriver() {
         if (driverPool.get() == null) {
 
             // check the command li9ne argument browser. if it has value, use that value

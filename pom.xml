@@ -65,12 +65,13 @@
                 <configuration>
                     <includes>
                         <include>**/CukesRunner.java</include>
+                        <include>**/*FailedTestRunner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                     <parallel>methods</parallel>
                     <threadCount>3</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
-                    <forkMode>perthread</forkMode>
+                    <forkCount>2C</forkCount>
                 </configuration>
             </plugin>
             <plugin>
